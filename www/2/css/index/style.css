@@ -1,0 +1,94 @@
+    .menu ul
+{
+    
+    top:90px;
+    left: 50px;
+    width: 150px;
+    border-radius: 25px;
+    position: relative;
+    list-style : none;  /* Remove the bullet from list items */
+    padding    : 0px;   /* Remove default padding from list items */
+    margin     : 0px;   /* Remove default margin from list items */
+    
+}
+
+h1
+{
+    left: 95px;
+    top: 150px;
+    /* border-radius: 35px; */
+    position: static;
+    /*background-color: white;
+    border-style: ridge;
+    border-color: brown; */
+    color: black;
+	margin-bottom: -85px;
+	
+	
+    
+}
+img
+{
+	height: 30%; 
+	width: 30%;
+    margin: auto auto;
+}
+.menu li
+{
+    top:100px;
+    border-radius: 50px;
+    width      : 200px;    /* width for each list item. Not absolutely necessary for horizontal menus. */
+    font-family: 'impact', Arial, Verdana, sans-serif;
+    text-align : center;
+	position: center;
+    /* Not needed for either menu. */
+}
+body                		
+{	background-color: white;
+	/*background-image: url(../../images/MENU.jpg); */
+    background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.menu a,
+.menu span
+{
+    
+    top:100px;
+    border-radius: 25px;
+    border: solid;
+    border-color: brown;
+    font-size: 25px;
+    text-decoration  : none;    /* remove the underline from a menu */ 
+    color            : black; 
+    background-color : white;
+    display          : block;   /* Expand hyperlink to fill container*/
+	position: center;
+}
+
+.menu a:hover,
+.menu a:active,
+.menu span:hover
+{
+    color            : white;
+    background-color : black;
+    cursor: pointer;
+}
+
+.menu.horizontal li
+{
+    display : inline-block;  /* Force list items onto same line. */
+    float   : left;          /* Force list items tight together. */
+}
+.locked
+{
+    color            : #aaa;
+    background-color : #ddd;
+}
+
+div
+{
+	text-align: center;
+	margin-left: -10px;
+	
+}
