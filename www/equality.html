@@ -6,6 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/onclick.js"></script>
+	<script>
+	$('tr[data-href]').on("click", function() {
+		document.location = $(this).data('href');
+	});
+	</script>
     <style>
     </style>
 </head>
@@ -51,7 +57,7 @@
 					  </tr>
 					</thead>
 					<tbody>
-					  <a href="whothis.html"><tr>
+					  <tr data-href="whoisthis.thml">
 						<td>Who is This?</td>
 						<td>80</td>
 						<td>1</td>
@@ -61,7 +67,7 @@
 						<td>Forum</td>
 					  </tr></a>
 					  
-					  <tr>
+					  <tr onclick="document.location = 'whoisthis.html';">
 						<td>Stereotype</td>
 						<td>14</td>
 						<td>20</td>
@@ -71,7 +77,7 @@
 						<td>Forum</td>
 					  </tr>
 					  
-					  <tr>
+					  <tr onclick="document.location = 'equality.html';">
 						<td>Discrimination</td>
 						<td>13</td>
 						<td>3</td>
@@ -87,6 +93,16 @@
 						<td>2</td>
 						<td>25 minutes</td>
 						<td>any</td>
+						<td>Play Button</td>
+						<td>Forum</td>
+					  </tr>
+					  
+					  <tr>
+						<td>Human Rights</td>
+						<td>6</td>
+						<td>1</td>
+						<td>10 minutes</td>
+						<td>20-30</td>
 						<td>Play Button</td>
 						<td>Forum</td>
 					  </tr>
