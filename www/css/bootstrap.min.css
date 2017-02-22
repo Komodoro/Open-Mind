@@ -1610,6 +1610,10 @@ pre code {
     margin-right: -15px;
     margin-left: -15px
 }
+.row1 {
+    margin-right: 0px;
+    margin-left: 0px
+}
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
